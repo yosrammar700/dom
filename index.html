@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+ 
+    <div class="cart-container">
+      <h1>Shopping Cart</h1>
+      <div class="cart-item" data-price="29.99">
+        <div class="item-info">
+          <h2>Item 1</h2>
+          <button class="like-btn">❤️</button>
+          <button class="delete-btn">Delete</button>
+        </div>
+        <div class="quantity-controls">
+          <button class="minus-btn">-</button>
+          <span class="quantity">1</span>
+          <button class="plus-btn">+</button>
+        </div>
+        <div class="item-price">$29.99</div>
+      </div>
+      <div class="total-price">Total: $<span id="total">29.99</span></div>
+    </div>
+    <script src="./dom.js"></script>
+  </body>
+</html>
